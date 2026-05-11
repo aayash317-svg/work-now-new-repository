@@ -1,0 +1,16 @@
+{
+  "project": {
+    "name": "Project-Rainfall",
+    "id": "36889000000012037"
+  },
+  "client": {
+    "source": "frontend/out"
+  },
+  "appsail": [
+    {
+      "source": "backend/services/job",
+      "name": "worknow-backend",
+      "stack": "node20"
+    }
+  ]
+}
